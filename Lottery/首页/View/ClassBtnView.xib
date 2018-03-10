@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ClassBtnView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j7u-vz-61E">
+                    <rect key="frame" x="10" y="0.0" width="41.5" height="40"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="全部">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <state key="selected" backgroundImage="矩形11">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="addQbBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="hrD-sF-c6U"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kB7-c9-N8g">
+                    <rect key="frame" x="61.5" y="0.0" width="42" height="40"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="娱乐">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <state key="selected" backgroundImage="矩形11">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="addYlBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="hpL-SZ-XYS"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wxQ-Qv-OOe">
+                    <rect key="frame" x="113.5" y="0.0" width="41.5" height="40"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="幸运号">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <state key="selected" backgroundImage="矩形11">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="addXyhBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="AYy-aV-BYa"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tpd-td-8vt">
+                    <rect key="frame" x="165" y="0.0" width="41.5" height="40"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="幸运28">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <state key="selected" backgroundImage="矩形11">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="Xy28Btn:" destination="iN0-l3-epB" eventType="touchUpInside" id="i5T-2p-mJ7"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XPr-XF-edg">
+                    <rect key="frame" x="216.5" y="0.0" width="42" height="40"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="时时彩">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <state key="selected" backgroundImage="矩形11">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="addSscBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="Onz-hK-JIR"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oL8-wQ-XtT">
+                    <rect key="frame" x="268.5" y="0.0" width="41.5" height="40"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="更多">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <state key="selected" backgroundImage="矩形11">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="addGdBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="Ti1-sR-14G"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Tpd-td-8vt" secondAttribute="bottom" id="0dc-3q-3Vu"/>
+                <constraint firstItem="XPr-XF-edg" firstAttribute="height" secondItem="j7u-vz-61E" secondAttribute="height" id="7em-kM-PHt"/>
+                <constraint firstItem="Tpd-td-8vt" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="8Pm-uF-HN1"/>
+                <constraint firstItem="XPr-XF-edg" firstAttribute="leading" secondItem="Tpd-td-8vt" secondAttribute="trailing" constant="10" id="I4w-ne-BXq"/>
+                <constraint firstItem="oL8-wQ-XtT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="O3D-rg-OyQ"/>
+                <constraint firstItem="j7u-vz-61E" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="PB3-u7-TfA"/>
+                <constraint firstItem="oL8-wQ-XtT" firstAttribute="height" secondItem="j7u-vz-61E" secondAttribute="height" id="UFw-7d-qyQ"/>
+                <constraint firstItem="XPr-XF-edg" firstAttribute="width" secondItem="j7u-vz-61E" secondAttribute="width" id="VMn-tZ-uTw"/>
+                <constraint firstItem="wxQ-Qv-OOe" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Zoq-NT-ebv"/>
+                <constraint firstItem="oL8-wQ-XtT" firstAttribute="leading" secondItem="XPr-XF-edg" secondAttribute="trailing" constant="10" id="bGu-Rt-l21"/>
+                <constraint firstAttribute="bottom" secondItem="j7u-vz-61E" secondAttribute="bottom" id="bOB-AT-j2t"/>
+                <constraint firstItem="kB7-c9-N8g" firstAttribute="width" secondItem="j7u-vz-61E" secondAttribute="width" id="djE-fn-zgh"/>
+                <constraint firstAttribute="bottom" secondItem="kB7-c9-N8g" secondAttribute="bottom" id="fq7-jP-Xnh"/>
+                <constraint firstItem="wxQ-Qv-OOe" firstAttribute="height" secondItem="j7u-vz-61E" secondAttribute="height" id="fsL-2g-3Lt"/>
+                <constraint firstItem="kB7-c9-N8g" firstAttribute="height" secondItem="j7u-vz-61E" secondAttribute="height" id="g96-uP-VUl"/>
+                <constraint firstItem="oL8-wQ-XtT" firstAttribute="width" secondItem="j7u-vz-61E" secondAttribute="width" id="i4S-Bl-Nxg"/>
+                <constraint firstAttribute="bottom" secondItem="oL8-wQ-XtT" secondAttribute="bottom" id="iVf-6c-Bx9"/>
+                <constraint firstItem="Tpd-td-8vt" firstAttribute="leading" secondItem="wxQ-Qv-OOe" secondAttribute="trailing" constant="10" id="jH5-sL-fiu"/>
+                <constraint firstItem="kB7-c9-N8g" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="jRk-E3-xAE"/>
+                <constraint firstItem="wxQ-Qv-OOe" firstAttribute="width" secondItem="j7u-vz-61E" secondAttribute="width" id="jYr-1p-u5T"/>
+                <constraint firstItem="Tpd-td-8vt" firstAttribute="width" secondItem="j7u-vz-61E" secondAttribute="width" id="mkJ-C5-uKc"/>
+                <constraint firstAttribute="bottom" secondItem="XPr-XF-edg" secondAttribute="bottom" id="nMS-ad-Pvx"/>
+                <constraint firstItem="XPr-XF-edg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="oKm-1W-T5g"/>
+                <constraint firstItem="j7u-vz-61E" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="qkt-bQ-oR6"/>
+                <constraint firstAttribute="bottom" secondItem="wxQ-Qv-OOe" secondAttribute="bottom" id="ri7-EQ-iCq"/>
+                <constraint firstAttribute="trailing" secondItem="oL8-wQ-XtT" secondAttribute="trailing" constant="10" id="s6R-34-CdI"/>
+                <constraint firstItem="kB7-c9-N8g" firstAttribute="leading" secondItem="j7u-vz-61E" secondAttribute="trailing" constant="10" id="twx-XD-pC1"/>
+                <constraint firstItem="wxQ-Qv-OOe" firstAttribute="leading" secondItem="kB7-c9-N8g" secondAttribute="trailing" constant="10" id="zWq-f9-s43"/>
+                <constraint firstItem="Tpd-td-8vt" firstAttribute="height" secondItem="j7u-vz-61E" secondAttribute="height" id="zXK-db-ibx"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="GdBtn" destination="oL8-wQ-XtT" id="weY-az-DIc"/>
+                <outlet property="QbBtn" destination="j7u-vz-61E" id="IXx-sy-h3I"/>
+                <outlet property="SscBtn" destination="XPr-XF-edg" id="nPY-3C-QRm"/>
+                <outlet property="Xy28Btn" destination="Tpd-td-8vt" id="PJL-MS-jg0"/>
+                <outlet property="XyhBtn" destination="wxQ-Qv-OOe" id="0nc-WR-orb"/>
+                <outlet property="YlBtn" destination="kB7-c9-N8g" id="QI6-F2-CRZ"/>
+            </connections>
+            <point key="canvasLocation" x="33" y="32"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="矩形11" width="40" height="30"/>
+    </resources>
+</document>

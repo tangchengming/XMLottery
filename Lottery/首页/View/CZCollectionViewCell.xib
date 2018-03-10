@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CZCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="93" height="90"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="93" height="90"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="重庆时时彩" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ojd-lC-Qr1">
+                        <rect key="frame" x="0.0" y="60" width="93" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="0Ee-SD-mAw"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="第35986期" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FlD-hn-abN">
+                        <rect key="frame" x="0.0" y="75" width="93" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="dFg-in-e0a"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="mzd-lT-YTA">
+                        <rect key="frame" x="23.5" y="0.0" width="50" height="50"/>
+                    </stackView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1323471adbc1817b32f5363a5d67c02c" translatesAutoresizingMaskIntoConstraints="NO" id="3tI-DU-av8">
+                        <rect key="frame" x="21.5" y="5" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="YMX-eQ-TJ3"/>
+                            <constraint firstAttribute="height" constant="50" id="hLm-3y-agw"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="FlD-hn-abN" secondAttribute="trailing" id="Axc-9q-OLv"/>
+                <constraint firstItem="FlD-hn-abN" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="D8s-ZF-qs0"/>
+                <constraint firstItem="FlD-hn-abN" firstAttribute="top" secondItem="ojd-lC-Qr1" secondAttribute="bottom" id="FSn-zr-4q3"/>
+                <constraint firstAttribute="trailing" secondItem="ojd-lC-Qr1" secondAttribute="trailing" id="Kvm-g0-OgW"/>
+                <constraint firstItem="3tI-DU-av8" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="P8t-ds-PJs"/>
+                <constraint firstItem="mzd-lT-YTA" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="VeE-m1-pRM"/>
+                <constraint firstItem="ojd-lC-Qr1" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="YIC-Jq-8PZ"/>
+                <constraint firstItem="ojd-lC-Qr1" firstAttribute="top" secondItem="3tI-DU-av8" secondAttribute="bottom" constant="5" id="cRA-7r-HwB"/>
+                <constraint firstAttribute="bottom" secondItem="FlD-hn-abN" secondAttribute="bottom" id="jLc-Ce-PzI"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="93" height="90"/>
+            <connections>
+                <outlet property="CZImageView" destination="3tI-DU-av8" id="Tq4-Qs-9ng"/>
+                <outlet property="CZLabel" destination="ojd-lC-Qr1" id="IHS-ZD-eq0"/>
+                <outlet property="QSLabel" destination="FlD-hn-abN" id="PNX-oS-3lX"/>
+            </connections>
+            <point key="canvasLocation" x="53.5" y="105"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="1323471adbc1817b32f5363a5d67c02c" width="50" height="50"/>
+    </resources>
+</document>

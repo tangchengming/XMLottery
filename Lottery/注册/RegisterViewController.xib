@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegisterViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jZk-Qz-vBu">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="注册" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wch-Ew-e36">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3fw-tv-nbV">
+                            <rect key="frame" x="0.0" y="0.0" width="46" height="64"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="46" id="Y7G-jY-aPt"/>
+                            </constraints>
+                            <state key="normal" title="返回">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.89575797319999995" green="0.22165605429999999" blue="0.42624974249999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="3fw-tv-nbV" firstAttribute="top" secondItem="jZk-Qz-vBu" secondAttribute="top" id="Kdd-Un-ea1"/>
+                        <constraint firstAttribute="trailing" secondItem="Wch-Ew-e36" secondAttribute="trailing" id="Vrz-gR-FYs"/>
+                        <constraint firstItem="Wch-Ew-e36" firstAttribute="leading" secondItem="jZk-Qz-vBu" secondAttribute="leading" id="XZf-5c-4eW"/>
+                        <constraint firstAttribute="bottom" secondItem="Wch-Ew-e36" secondAttribute="bottom" id="ZTB-GD-rKr"/>
+                        <constraint firstItem="Wch-Ew-e36" firstAttribute="top" secondItem="jZk-Qz-vBu" secondAttribute="top" id="enO-R0-iAe"/>
+                        <constraint firstAttribute="bottom" secondItem="3fw-tv-nbV" secondAttribute="bottom" id="jt8-o2-z0a"/>
+                        <constraint firstItem="3fw-tv-nbV" firstAttribute="leading" secondItem="jZk-Qz-vBu" secondAttribute="leading" id="qNj-dA-exa"/>
+                        <constraint firstAttribute="height" constant="64" id="xcH-sN-9u1"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6zs-ZX-chS">
+                    <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="jZk-Qz-vBu" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="19H-0M-BAr"/>
+                <constraint firstItem="6zs-ZX-chS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="1A1-8M-MXj"/>
+                <constraint firstItem="jZk-Qz-vBu" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="D2b-Cb-fYz"/>
+                <constraint firstAttribute="bottom" secondItem="6zs-ZX-chS" secondAttribute="bottom" id="g1i-L2-qXM"/>
+                <constraint firstAttribute="trailing" secondItem="6zs-ZX-chS" secondAttribute="trailing" id="pie-0K-0Eg"/>
+                <constraint firstAttribute="trailing" secondItem="jZk-Qz-vBu" secondAttribute="trailing" id="xEw-LN-MLI"/>
+                <constraint firstItem="6zs-ZX-chS" firstAttribute="top" secondItem="jZk-Qz-vBu" secondAttribute="bottom" id="yfq-Zp-25a"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

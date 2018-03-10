@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Yt2-b0-bxb" customClass="XMHotView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NRu-Mt-8it">
+                    <rect key="frame" x="10" y="10" width="93.5" height="60"/>
+                    <state key="normal" backgroundImage="北京幸运28"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aCv-om-B2x">
+                    <rect key="frame" x="216.5" y="10" width="93.5" height="60"/>
+                    <state key="normal" backgroundImage="北京幸运28"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GoM-pC-dUb">
+                    <rect key="frame" x="113.5" y="10" width="93" height="60"/>
+                    <state key="normal" backgroundImage="北京幸运28"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="GoM-pC-dUb" secondAttribute="bottom" constant="10" id="201-XJ-yS6"/>
+                <constraint firstAttribute="trailing" secondItem="aCv-om-B2x" secondAttribute="trailing" constant="10" id="945-NO-uXt"/>
+                <constraint firstItem="NRu-Mt-8it" firstAttribute="leading" secondItem="Yt2-b0-bxb" secondAttribute="leading" constant="10" id="FXW-5N-htE"/>
+                <constraint firstItem="NRu-Mt-8it" firstAttribute="top" secondItem="Yt2-b0-bxb" secondAttribute="top" constant="10" id="PAf-dp-ZO3"/>
+                <constraint firstItem="GoM-pC-dUb" firstAttribute="width" secondItem="NRu-Mt-8it" secondAttribute="width" id="S9O-Pm-MzA"/>
+                <constraint firstItem="aCv-om-B2x" firstAttribute="leading" secondItem="GoM-pC-dUb" secondAttribute="trailing" constant="10" id="Vbi-mq-Uk8"/>
+                <constraint firstItem="aCv-om-B2x" firstAttribute="width" secondItem="NRu-Mt-8it" secondAttribute="width" id="XRl-eN-hM7"/>
+                <constraint firstItem="GoM-pC-dUb" firstAttribute="top" secondItem="Yt2-b0-bxb" secondAttribute="top" constant="10" id="enJ-NP-Jg8"/>
+                <constraint firstItem="aCv-om-B2x" firstAttribute="top" secondItem="Yt2-b0-bxb" secondAttribute="top" constant="10" id="fDK-zW-7yD"/>
+                <constraint firstAttribute="bottom" secondItem="NRu-Mt-8it" secondAttribute="bottom" constant="10" id="fTd-db-Suf"/>
+                <constraint firstItem="GoM-pC-dUb" firstAttribute="leading" secondItem="NRu-Mt-8it" secondAttribute="trailing" constant="10" id="fmA-mR-XEF"/>
+                <constraint firstItem="GoM-pC-dUb" firstAttribute="height" secondItem="NRu-Mt-8it" secondAttribute="height" id="gTI-xm-gea"/>
+                <constraint firstAttribute="bottom" secondItem="aCv-om-B2x" secondAttribute="bottom" constant="10" id="gWV-cy-K0x"/>
+                <constraint firstItem="aCv-om-B2x" firstAttribute="height" secondItem="NRu-Mt-8it" secondAttribute="height" id="uqq-eA-s4z"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="31" y="235"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="北京幸运28" width="110" height="70"/>
+    </resources>
+</document>
